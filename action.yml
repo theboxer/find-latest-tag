@@ -6,6 +6,8 @@ inputs:
     required: true
   prefix:
     description: Consider only tags starting with this string prefix
+  suffix:
+    description: Consider only tags ending with this string suffix
   releases-only:
     description: If true, consider only tags that have an associated release
   sort-tags:
